@@ -32,7 +32,7 @@ class Http {
     }
   };
 
-  post = async (url, id, data) => {
+  put = async (url, id, data) => {
     try {
       let req = await fetch(`${url}` / `${id}`, {
         method: 'PUT',
